@@ -19,7 +19,7 @@
     $lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
     $userIP = $_SERVER['REMOTE_ADDR'];
     $fil = $_SERVER['PHP_SELF'];
-    echo "Your IP address is: " . $userIP ."<br>".$lang. "<br>".$hostname."<br>".$route."<br>".$fil;
+    echo "Your IP address: " . $userIP ."<br>".$lang. "<br>".$hostname."<br>".$route."<br>".$fil;
     ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
